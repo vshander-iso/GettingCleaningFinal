@@ -1,14 +1,15 @@
+# Code Book for the Getting and Cleaning Data final assignment
 The dataset saved as final.txt and readable with read.table("final.txt",header=TRUE) contains 88 variables: "activity",  "subject" and 86 numeric fields listed below.
 
 It was created with run_analysis.R R-script as an aggregation (by "activity" and "subject") of the data derived from the files in "UCI HAR Dataset" folder provided by Coursera for this assignment.  See also ReadMe.md. 
 ## "Activity" 
 It takes six values: 
-1.LAYING
-2.SITTING
-3.STANDING
-4.WALKING
-5.WALKING_DOWNSTAIRS
-6.WALKING_UPSTAIRS
+1.LAYING  
+2.SITTING 
+3.STANDING  
+4.WALKING  
+5.WALKING_DOWNSTAIRS  
+6.WALKING_UPSTAIRS  
 
 It originates from numeric codes provided as 'train/y_train.txt' and 'test/y_test.txt,' converted to factors using the key provided as 'activity_labels.txt.'
 
